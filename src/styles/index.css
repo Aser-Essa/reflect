@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.glow {
+  background: rgb(112 46 255 / 12%);
+  background-image: linear-gradient(to bottom, #3c087e00, #3c087e);
+  box-shadow: inset 0 0 12px #bf97ff3d;
+}
+
+.glow-1 {
+  background: #9180ff03;
+  background-image: linear-gradient(to bottom, #f3eeff00, #f4f0ff0a);
+  box-shadow: inset 0 0 12px #ffffff14;
+}
+
+.line {
+  background-image: linear-gradient(
+    to right,
+    rgba(76, 47, 140, 0.12),
+    rgba(255, 255, 255, 0.08),
+    rgba(76, 47, 140, 0.12)
+  );
+}
+
+.ttt {
+  background: -webkit-linear-gradient(#e59cff, #ba9cff, #9cb2ff);
+  background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.4);
+}
+
+.xxx {
+  box-shadow: inset 0 -7px 11px #a38fff1f;
+}
+
+.text {
+  background: -webkit-linear-gradient(#fff, #ffffffb3);
+  background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+.layer {
+  background-image: linear-gradient(
+    to bottom,
+    #04011500,
+    rgba(3, 0, 20, 0.7) 34%,
+    #030014 82%
+  );
+}
+
+.grid-cards {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
